@@ -48,14 +48,31 @@ li {
     color:#f9faf8;
 }
 
-button, .call {
-    background-color: #3882f6;
+.section5 .call {
+    background-color: #3882f6;   
+    border-radius: 10px;
+    display: flex;
+    margin: 20px;
+}
+
+.buttonfor5 {
+    border-color: white;
+    border-width: 2px;
+    
 }
 
 .section4 {
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 3;
+    padding: 30px;
+}
+
+span {
+    align-self: flex-end;
 }
 
 .quotetext {
@@ -63,6 +80,10 @@ button, .call {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+}
+
+span, .quotetext {
+    width: 40%;
 }
 
 .infoheader {
@@ -83,26 +104,31 @@ button, .call {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 1;  
+    padding: 25px; 
+    color: #f9faf8;
 }
 
 .section2 {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-evenly;
 }
 .hero {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 10px;
+    flex-basis: 500px;
 }
 
 .container1 {
     display: flex;
     flex-direction: column;
     flex: 4;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 50px;
 }
 
 .section3 {
@@ -110,14 +136,36 @@ button, .call {
     flex-direction: column;
     flex: 3;
     align-items: center;
-    padding: 32px;
+    padding: 100px;
 }
 
 .section5 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
     flex: 2;
+    border-radius: 10px;
 }
 
+.calltext>div {
+    color: #f9faf8;
+}
+
+.calltoaction {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.buttonad, .calltext {
+    padding: 50px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .media {
     display: flex;
     flex-direction: column;
@@ -137,9 +185,20 @@ button, .call {
 .container2 {
     display: flex;
     justify-content: center;
-    flex: 1;
 }
 
 .section2>img {
-    width: 30%;
+    width: 25%;
 }
+
+button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: #3882f6;   
+}
+
+
